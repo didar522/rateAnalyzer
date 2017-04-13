@@ -41,14 +41,14 @@ public class mainTACalc {
 //	public static String filePath = "C:/Users/S.M.Didar/Onedrive/Didar DBPC/PhD Research/Summer 2016/New start with OSS/Analysis/V5 Weekly rate data identify/Topic Modeling/";
 
 //	public static String filePath = "C:/Users/S.M.Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/EASE 2017/Analysis/R rezaul analysis/";
-	public static String filePath = "C:/Users/S.M.Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";
+	public static String filePath = "C:/Users/Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Step 3 - Topic analysis on manual analyzed release/";
 	
 	public static int numTrainingWeeks=1;//=80;   /// change also in precision recall msr file outlebelling function 
-	public static int commentAnalysisUptoWeek=9; //= 110; 
+	public static int commentAnalysisUptoWeek=5; //= 110; 
 	
-	public static int numTopics=30; 
+	public static int numTopics=10; 
 	public static double taAlpha = 0.1; 
-	public static int taIteration = 500; 
+	public static int taIteration = 2000; 
 	
 	
 	public static void main(String[] args) {

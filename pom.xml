@@ -27,11 +27,6 @@
   		<version>3.0.3</version>
   	</dependency>
   	<dependency>
-  		<groupId>com.atlassian.jira</groupId>
-  		<artifactId>jira-rest-java-client</artifactId>
-  		<version>2.0.0-m2</version>
-  	</dependency>
-  	<dependency>
   		<groupId>org.kohsuke</groupId>
   		<artifactId>github-api</artifactId>
   		<version>1.72</version>
@@ -40,11 +35,6 @@
   		<groupId>nz.ac.waikato.cms.weka</groupId>
   		<artifactId>weka-stable</artifactId>
   		<version>3.6.6</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>org.eclipse.mylyn.github</groupId>
-  		<artifactId>org.eclipse.egit.github.core</artifactId>
-  		<version>4.5.0.201609210915-r</version>
   	</dependency>
   </dependencies>
 </project>

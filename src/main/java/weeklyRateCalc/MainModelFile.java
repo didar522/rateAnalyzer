@@ -36,8 +36,8 @@ public class MainModelFile {
 
 //	public static String strFilePath = "C:/Users/S.M.Didar/Dropbox/Didar DBPC/PhD Research/Fall 2015/ICSE -Journal 2016/Evaluation/JIRA client/Test V3.1/Exp3.6/";
 //	public static String strFilePath = "C:/Users/S.M.Didar/Dropbox/Didar DBPC/PhD Research/Fall 2015/ICSE Workshop/Evaluation/V8/";
-	public static String strFilePath = "C:/Users/S.M.Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";
-	public static String strJiraFilePath = "C:/Users/S.M.Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";   
+	public static String strFilePath = "C:/Users/Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";
+	public static String strJiraFilePath = "C:/Users/Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";   
 	public static String strFileName = "Summary_Out.xls"; 
 	public static String strSheetName = "Summary_Out.xls"; 
 	public static String strOutputReleaseCategoriesFileName = "LastValues_AllAtt.xls";
