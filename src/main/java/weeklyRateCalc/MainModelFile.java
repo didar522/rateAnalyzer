@@ -36,8 +36,8 @@ public class MainModelFile {
 
 //	public static String strFilePath = "C:/Users/S.M.Didar/Dropbox/Didar DBPC/PhD Research/Fall 2015/ICSE -Journal 2016/Evaluation/JIRA client/Test V3.1/Exp3.6/";
 //	public static String strFilePath = "C:/Users/S.M.Didar/Dropbox/Didar DBPC/PhD Research/Fall 2015/ICSE Workshop/Evaluation/V8/";
-	public static String strFilePath = "C:/Users/Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";
-	public static String strJiraFilePath = "C:/Users/Didar/OneDrive/Didar DBPC/PhD Research/Winter 2017/BS & PhD/Topic model data/";   
+	public static String strFilePath = "C:/Users/Didar/Desktop/Summary/";
+	public static String strJiraFilePath = "C:/Users/Didar/Desktop/Summary/";   
 	public static String strFileName = "Summary_Out.xls"; 
 	public static String strSheetName = "Summary_Out.xls"; 
 	public static String strOutputReleaseCategoriesFileName = "LastValues_AllAtt.xls";
@@ -217,30 +217,50 @@ public class MainModelFile {
 		//---------------------BrightSquid Platfor/Dental releases from Jira------------------//
 		
 		
-		
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-01-15", true, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-02-06", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-02-12", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-03-04", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-03-25", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-04-02", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-05-09", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-05-15", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-06-17", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-08-15", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-09-18", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-10-03", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-01-17", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-01-23", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-05-02", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-05-30", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-06-04", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-09-18", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-09-29", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-10-16", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-11-06", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-11-27", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-03-20", false, "R");
+//		All releases
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-01-15", true, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-02-06", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-02-12", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-03-04", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-03-25", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-04-02", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-05-09", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-05-15", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-06-17", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-08-15", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-09-18", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-10-03", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-01-17", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-01-23", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-05-02", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-05-30", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-06-04", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-09-18", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-09-29", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-10-16", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-11-06", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2014-11-27", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-03-20", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-04-08", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-05-14", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-05-21", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-06-01", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-06-17", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-07-28", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-08-20", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-09-04", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-09-18", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-10-15", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-05", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-27", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-12-10", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-12-17", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-01-21", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-02-04", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-02-11", false, "R");
+//		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-06-16", false, "R");
+
+		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-03-22", true, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-04-08", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-05-14", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-05-21", false, "R");
@@ -249,20 +269,15 @@ public class MainModelFile {
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-07-28", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-08-20", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-09-04", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-09-18", false, "R");
+		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-09-17", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-10-15", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-05", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-27", false, "R");
+		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-26", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-12-10", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-12-17", false, "R");
 		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-01-21", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-02-04", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-02-11", false, "R");
-		obj_ReleaseInfoCollection.fillUpReleaseInfo("2016-06-16", false, "R");
 
-		
-		
-		
+
 		
 		
 		
