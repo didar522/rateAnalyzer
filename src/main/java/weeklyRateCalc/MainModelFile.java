@@ -69,7 +69,7 @@ public class MainModelFile {
 	 
 	public static void main (String args []) throws Exception{
 		
-		int runningAction = 5; 
+		int runningAction = 2; 
 		
 		if (runningAction ==1) {StepOne_MergingAllExcelfiles (); }
 		else if (runningAction ==2) {StepTwo_ReadingExcelsheet ();}  // NEED TO ALTER THE DATE CONVERSION THING IN DataReadExcelFiles CLASS BASED ON IF CONVERSION IS REQUIRED --- HERE REQUIRED. 
@@ -337,8 +337,7 @@ public class MainModelFile {
 
 		
 		
-		
-		// Helix
+// Helix
 		
 //		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-09-10", true, "NR");		
 //		obj_ReleaseInfoCollection.fillUpReleaseInfo("2013-10-02", false, "NR");
@@ -825,6 +824,7 @@ public class MainModelFile {
 //		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-10-26", false, "NR");
 //		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-06", false, "NR");
 //		obj_ReleaseInfoCollection.fillUpReleaseInfo("2015-11-21", false, "NR");
+		
 
 		
 		
@@ -857,7 +857,7 @@ public class MainModelFile {
 		int intStartingRowofData = 1;
 		DataReadExcelFiles objDataReadExcelFiles = new DataReadExcelFiles(IssueData, intStartingRowofData, strFilePath, strFileName, strFileName); 
 		excelFileIndex = objDataReadExcelFiles.createColumnIndex(0); 
-		objDataReadExcelFiles.readExcelFiles(false);
+		objDataReadExcelFiles.readExcelFiles(true);
 		
 		
 //		---------------For sake of checking excel index output only 0---------------------

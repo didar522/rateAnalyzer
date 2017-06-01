@@ -56,7 +56,7 @@ public class createTopicFiles {
 		//Create Workbook instance holding reference to .xlsx file
         HSSFWorkbook workbook = new HSSFWorkbook(file);
         //Get first/desired sheet from the workbook
-        HSSFSheet sheet = workbook.getSheetAt(0);
+        HSSFSheet sheet = workbook.getSheet("Issue_Bug");
         
         //Iterate through each rows one by one
         Iterator<Row> rowIterator = sheet.iterator();
