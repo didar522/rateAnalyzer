@@ -9,6 +9,18 @@ import java.util.concurrent.TimeUnit;
 public class WeekCalcTemplate {
 
 	private int weekNum, releaseNum; 
+	
+	public int inOinC,erOinC,inOltC, erOltC,inO,erO; 
+	
+	public double weeklyVal, uptoWeekVal; 
+	
+	public double dblTotalFiles, dblTotalAddition, dblTotalDeletion; 
+		
+	public double tmpTotalInWeekValues=0, tmpTotalAllInOutWeekValues=0, tmpTotalTransferFromEarlyRelease=0,tmpTotalOpenThisRelease=0,tmpTotalerOleftOpen=0,tmpTotalinOleftOpen=0;
+		
+	public double totalRateVal, normalTotalVal, releaseDuration, releaseCompletion;
+	
+	
 	/**
 	 * @return the releaseNum
 	 */
@@ -21,17 +33,8 @@ public class WeekCalcTemplate {
 	public void setReleaseNum(int releaseNum) {
 		this.releaseNum = releaseNum;
 	}
-	public int inOinC,erOinC,inOltC, erOltC,inO,erO; 
-	public double weeklyVal, uptoWeekVal; 
 	
-	public double dblTotalFiles, dblTotalAddition, dblTotalDeletion; 
-	
-	
-	public double tmpTotalInWeekValues=0, tmpTotalAllInOutWeekValues=0, tmpTotalTransferFromEarlyRelease=0,tmpTotalOpenThisRelease=0,tmpTotalerOleftOpen=0,tmpTotalinOleftOpen=0;
-	
-	
-	
-	public double totalRateVal, normalTotalVal, releaseDuration, releaseCompletion; 
+	 
 	/**
 	 * @return the releaseCompletion
 	 */
